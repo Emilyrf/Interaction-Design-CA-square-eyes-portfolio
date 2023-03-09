@@ -1,0 +1,148 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+:root {
+  --black: #2c2c2c;
+  --white: #f3f3f3;
+  --newgreen: #42faa2;
+  --newpink: #ae1857;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url(/assets/contactbkg.png);
+  text-align: center;
+}
+
+.container {
+  background-color: #eeeeeee6;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 9);
+  width: 400px;
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+h1 {
+  font-weight: 600;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  color: var(--newpink);
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.form-control input,
+textarea {
+  border: 2px solid darkgray;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-control textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-control i {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+/* BUTTON */
+
+.form button, .button-watch {
+  background-color: var(--newpink);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 100%;
+  font-weight: 700;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.form button:hover, .button-watch:hover {
+  background-color: var(--newpink);
+  box-shadow: 0 0 5px #bf2a70, 0 0 25px #bf2a70, 0 0 50px #bf2a70,
+    0 0 150px #bf2a70;
+}
+
+/*Error and Success*/
+.form-control.success input,
+textarea {
+  border-color: #2ecc71;
+}
+
+.form-control.success i.fa-circle-check {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error input,
+textarea {
+  border-color: #e74c3e;
+}
+
+.form-control.error i.fa-circle-exclamation {
+  color: #e74c3e;
+  visibility: visible;
+}
+
+.form-control.error small {
+  color: #e74c3e;
+  visibility: visible;
+}
+
+.contact-success p {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-success h1 {
+  font-weight: 600;
+  padding: 20px 20px 0 20px;
+  color: var(--newpink);
+}
+
+.contact-success {
+  height: 400px;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+}

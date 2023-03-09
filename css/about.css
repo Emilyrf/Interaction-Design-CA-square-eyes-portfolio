@@ -1,0 +1,47 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+:root {
+  --black: #2c2c2c;
+  --white: #f3f3f3;
+  --newgreen: #42faa2;
+  --newpink: #ae1857;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url(/assets/aboutbkg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  background-color: #eeeeeee6;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 9);
+  width: 400px;
+  min-height: 580px;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  color: var(--newpink);
+}
+
+p{
+    font-size: 25px;
+    padding: 10px;
+}
+

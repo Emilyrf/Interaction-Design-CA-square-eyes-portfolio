@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Cart | Square Eyes</title>
+  <meta name="description" content="Your shopping cart on Square Eyes.">
+  <link rel="stylesheet" href="css/cart.css" />
+
+  <script src="https://kit.fontawesome.com/7838f15d00.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&family=Open+Sans:wght@300;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+
+  <!-- Hotjar Tracking Code for SquareEyes CA -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3289580, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand-title"><a href="index.html"><img src="assets/SquareEyes_Logo.png" alt="Square Eyes logo"></a></div>
+      <a href="#" class="toggle-button">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.html">
+              <div class="cart">
+                My Cart
+                <div id="cartAmount" class="cartAmount">0</div>
+              </div>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+      <h1>My Cart:</h1>
+      <section class="cart">
+        <div class="product-description">
+        </div>
+        <div id="total">
+          <span class="total">Total:</span> <span class="price"></span>
+        </div>
+      </section>
+      <div class="shopbtn"><a href="index.html">◀ CONTINUE SHOPPING</a></div>
+      <div class="checkbtn"><a  href="checkout.html">PROCEED TO CHECKOUT</a>
+      </div>
+  </main>
+  <footer>
+    <div class="column">
+      <img class="brand" src="assets/SquareEyes_Logo.png" alt="Square Eyes logo">
+    </div>
+    <div class="column">
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Get in Contact</a></li>
+    </div>
+    <div class="column">
+      <ul>
+        <li><a class="fa-solid fa-location-dot"></a> Storgata 47 - Oslo</li>
+        <li>
+          <a class="fa-solid fa-phone" href="tel:+47 000-000"></a> +47 000-000
+        </li>
+        <li>
+          <a class="fa-solid fa-envelope" href="mailto:suport@squareeyes.com"></a>
+          suport@squareeyes.com
+        </li>
+      </ul>
+    </div>
+    <div class="column social">
+      <div class="social-logos">
+        <a class="fa-brands fa-facebook-f" href=""></a>
+
+        <a class="fa-brands fa-instagram" href=""></a>
+
+        <a class="fa-brands fa-twitter" href=""></a>
+      </div>
+      <span>Square Eyes 2022 &copy;</span>
+      <span ><a href="">Privacy Policy</a></span>
+    </div>
+
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/global.js"></script>
+</body>
+
+</html>

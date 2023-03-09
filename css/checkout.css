@@ -1,0 +1,126 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+:root {
+  --newgreen: #42faa2;
+  --newpink: #ae1857;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url(/assets/ckotbkg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: #eeeeeee6;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 9);
+  width: 400px;
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+h1 {
+  font-weight: 600;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  color: var(--newpink);
+}
+
+.form  {
+  padding: 20px;
+}
+
+.form-control input {
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 8px 50px;
+  border-radius: 1rem;
+  border: solid 2px #a3a4a5;
+  height: 55px;
+  width: 100%;
+  font-size: 18px;
+  color: #000;
+}
+
+label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+
+.form-control small {
+  visibility: hidden;
+}
+
+/* BUTTON */
+
+.submit-btn, .button-watch {
+  background-color: var(--newpink);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 100%;
+  font-weight: 700;
+  transition: all 0.3s;
+  width: 100%;
+  text-decoration: none;
+
+}
+
+.submit-btn:hover, .button-watch:hover {
+  background-color: var(--newpink);
+  box-shadow: 0 0 5px #bf2a70, 0 0 25px #bf2a70, 0 0 50px #bf2a70,
+    0 0 150px #bf2a70;
+}
+
+/*Error and Success*/
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.success i.fa-circle-check {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error input{
+  border-color: #e74c3e;
+}
+
+.form-control.error small {
+  color: #e74c3e;
+  font-weight: 700;
+  visibility: visible;
+}
+
+.pay-success p {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pay-success h1 {
+  font-weight: 600;
+  padding: 20px 20px 0 20px;
+  color: var(--newpink);
+}
+
+.pay-success {
+  height: 400px;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+}
