@@ -41,7 +41,7 @@ https://square-eyes-it-ca-emily.netlify.app/
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:Emilyrf/Interaction-Design-CA.git
+git clone git@github.com:Emilyrf/Interaction-Design-CA-square-eyes-portfolio.git
 ```
 
 
